@@ -26,7 +26,7 @@ mkdir -p ~/mazen_ws/src
 cd ~/mazen_ws/src
 
 # Clone the project repository
-git clone <project_link>
+git clone https://github.com/mazen-daghari/Mazen_4dw.git
 
 # Build the workspace
 cd ~/mazen_ws
