@@ -10,6 +10,8 @@ The package supports Gazebo simulation and RViz visualization, along with YOLOv8
 
 
 ## Features
+![1](https://github.com/mazen-daghari/mazeN/blob/b3823cf7ffdf21d697620cc41f57276ea91076f6/moving_robot.gif)
+## Features
 
 - 4WD robot model with realistic physics in Gazebo
 
