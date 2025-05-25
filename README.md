@@ -1,60 +1,90 @@
-# Mazen_4dw
 
-- About
+## About
 
 Mazen_4dw is a ROS 2 package designed for ROS 2 Foxy and later distributions. It simulates and controls a 4-wheel-drive (4WD) robot equipped with various sensors, such as a 2D LiDAR, camera, and other modules for perception and navigation.
 
 The package supports Gazebo simulation and RViz visualization, along with YOLOv8-based object detection, making it suitable for research and development in autonomous robotics, SLAM, and AI-based perception.
 
-- Features
- 4WD robot model with realistic physics in Gazebo
 
- Integrated camera for image processing and computer vision tasks
-
- 2D LiDAR support for mapping, obstacle avoidance, and SLAM
-
- Object recognition using YOLOv8 (Ultralytics)
-
- RViz support for visualizing robot states and sensor data
-
- Modular launch files for easy simulation and testing
-
-- How to Set Up
-Follow these steps to set up and run the project:
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
-# Create a new ROS 2 workspace
-mkdir -p ~/mazen_ws/src
-cd ~/mazen_ws/src
+## Features
 
-# Clone the project repository
-git clone https://github.com/mazen-daghari/Mazen_4dw.git
+- 4WD robot model with realistic physics in Gazebo
 
-# Build the workspace
-cd ~/mazen_ws
-colcon build --symlink-install
+* Integrated camera for image processing and computer vision tasks
 
-# Source the setup file
-source install/setup.bash
+* 2D LiDAR support for mapping, obstacle avoidance, and SLAM
 
-- Running the Simulation
+* Object recognition using YOLOv8 (Ultralytics)
 
-Use the following launch commands to run the robot in simulation and test recognition:
+* RViz support for visualizing robot states and sensor data
 
-- Gazebo + RViz Simulation
-ros2 launch mazen_4wd gazebo_model.launch.py
+* Modular launch files for easy simulation and testing
 
 
-- YOLOv8 Object Detection
-ros2 launch recognition launch_yolov8.launch.py
 
-*Notes
-Make sure all dependencies (e.g., YOLOv8, camera drivers, etc.) are correctly installed.
+## Installation
 
-Tested on Ubuntu 20.04 with ROS 2 Foxy. Later ROS 2 versions like Humble and Iron should also work with minor adjustments.
+Create project directory
 
-person suv stop_sign bus etc.. must be copyed to .gazebo/models (directory may be hidden check hidden file option to see it )
+```bash
+  mkdir -p ~/mazen_ws/src cd ~/mazen_ws/src
+```
 
-for any further help contact me on dagmazen@gmail.com or via linkedin 
+Clone the project
 
+```bash
+  git clone https://github.com/mazen-daghari/Mazen_4dw.git
+```
+
+Build project
+
+```bash
+ colcon build --symlink-install
+```
+
+Source project
+
+```bash
+  source install/setup.bash 
+```
+
+
+## Roadmap
+
+- Create robot urdf
+- Add sensors 
+- Add extended kalman filer
+- Add yolo v8 model to simulation
+- Add teleop twist keyboard script 
+
+
+## Acknowledgements
+
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+
+## Notes
+
+
+- Make sure all dependencies (e.g., YOLOv8, camera drivers, etc.) are correctly installed.
+
+- Tested on Ubuntu 20.04 with ROS 2 Foxy. Later ROS 2 versions like Humble and Iron should also work with minor adjustments.
+
+- models like person suv stop_sign bus etc.. must be copyed to .gazebo/models (directory may be hidden check hidden file option to see it ) first time only 
+
+- for any further help contact me on dagmazen@gmail.com or via linkedin 
+
+## Authors
+
+- [@mazen-daghari](https://www.github.com/mazen-daghari)
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
