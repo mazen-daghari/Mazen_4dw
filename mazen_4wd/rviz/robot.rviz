@@ -1,0 +1,23 @@
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: Camera
+      Topic: /camera/image_raw
+      Unreliable: false
+      Value: true
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Name: LaserScan
+      Topic: /scan
+      Unreliable: false
+      Value: true
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Description Topic: /robot_description
+      Value: true
+  Global Options:
+    Fixed Frame: base_link
+    Frame Rate: 30
