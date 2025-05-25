@@ -1,12 +1,12 @@
 # Mazen_4dw
 
--About
+- About
 
 Mazen_4dw is a ROS 2 package designed for ROS 2 Foxy and later distributions. It simulates and controls a 4-wheel-drive (4WD) robot equipped with various sensors, such as a 2D LiDAR, camera, and other modules for perception and navigation.
 
 The package supports Gazebo simulation and RViz visualization, along with YOLOv8-based object detection, making it suitable for research and development in autonomous robotics, SLAM, and AI-based perception.
 
--Features
+- Features
  4WD robot model with realistic physics in Gazebo
 
  Integrated camera for image processing and computer vision tasks
@@ -19,7 +19,7 @@ The package supports Gazebo simulation and RViz visualization, along with YOLOv8
 
  Modular launch files for easy simulation and testing
 
--How to Set Up
+- How to Set Up
 Follow these steps to set up and run the project:
 
 
