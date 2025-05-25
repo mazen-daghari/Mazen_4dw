@@ -87,9 +87,11 @@ Launch Yolo v8
 
 - Tested on Ubuntu 20.04 with ROS 2 Foxy. Later ROS 2 versions like Humble and Iron should also work with minor adjustments.
 
-- models like person suv stop_sign bus etc.. must be copyed to .gazebo/models (directory may be hidden check hidden file option to see it ) first time only 
+-Copy models (e.g., person, SUV, stop sign, bus) to your ~/.gazebo/models directory. This step is only required once. (Note: This directory may be hidden; enable 'show hidden files' if needed).
 
-- for any further help contact me on dagmazen@gmail.com or via linkedin 
+- For any further help contact me on dagmazen@gmail.com or via linkedin
+
+- The Gazebo simulation and the recognition package must be executed simultaneously. This requires initiating their respective launch files in distinct terminal instances.
 
 ## Authors
 
