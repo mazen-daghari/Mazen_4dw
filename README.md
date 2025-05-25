@@ -64,7 +64,7 @@ Source project
 ## Acknowledgements
 
  - [Ultralytics](https://github.com/ultralytics/ultralytics)
- (https://github.com/mohamedamine99/YOLOv8-custom-object-detection)
+ 
 
 
 
