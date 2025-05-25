@@ -6,7 +6,7 @@ Mazen_4dw is a ROS 2 package designed for ROS 2 Foxy and later distributions. It
 The package supports Gazebo simulation and RViz visualization, along with YOLOv8-based object detection, making it suitable for research and development in autonomous robotics, SLAM, and AI-based perception.
 
 
-![Logo]([https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png](https://github.com/mazen-daghari/Mazen_4dw/blob/3080668521934bef2140758409f920854b32ef95/mazenkovic.png))
+![Logo](https://github.com/mazen-daghari/Mazen_4dw/blob/3080668521934bef2140758409f920854b32ef95/mazenkovic.png)
 
 
 ## Features
