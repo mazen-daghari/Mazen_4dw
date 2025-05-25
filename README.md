@@ -49,4 +49,8 @@ Make sure all dependencies (e.g., YOLOv8, camera drivers, etc.) are correctly in
 
 Tested on Ubuntu 20.04 with ROS 2 Foxy. Later ROS 2 versions like Humble and Iron should also work with minor adjustments.
 
+person suv stop_sign bus etc.. must be copyed to .gazebo/models (directory may be hidden check hidden file option to see it )
+
+for any further help contact me on dagmazen@gmail.com or via linkedin 
+
 
