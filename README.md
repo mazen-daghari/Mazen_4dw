@@ -51,6 +51,17 @@ Source project
   source install/setup.bash 
 ```
 
+Launch Gazebo simulation
+
+```bash
+  ros2 launch mazen_4wd gazebo_model.launch.py
+```
+
+Launch Yolo v8 
+
+```bash
+  ros2 launch recognition launch_yolov8.launch.py
+```
 
 ## Roadmap
 
