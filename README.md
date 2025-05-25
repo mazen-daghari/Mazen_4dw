@@ -34,7 +34,9 @@ colcon build --symlink-install
 
 # Source the setup file
 source install/setup.bash
+
 -- Running the Simulation
+
 Use the following launch commands to run the robot in simulation and test recognition:
 
 - Gazebo + RViz Simulation
